@@ -1190,3 +1190,22 @@ input:checked + label {
  
 }
 .content p  span {text-decoration: line-through;}
+
+.wp-block-table table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+table {
+  display: table;
+  border-collapse: separate;
+  box-sizing: border-box;
+  text-indent: initial;
+  unicode-bidi: isolate;
+  border-spacing: 2px;
+  border-color: gray;
+}
+.wp-block-table td, .wp-block-table th {
+  border: 1px solid;
+  padding: .5em;
+}
